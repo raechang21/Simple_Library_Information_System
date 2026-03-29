@@ -129,16 +129,19 @@ Attributes include:
 ```text
 Library-Information-System
 │
-├── classes.py
+├── main.py
+│   Implements system operations and user interactions.
+│
+├── models.py
 │   Defines the main system classes:
 │   - User
 │   - Book
 │   - Journal
 │   - Media
-│
-├── functions.py
-│   Implements system operations and user interactions.
-│
+│ 
+├── data.py
+│   Implements data initialization.
+│ 
 └── README.md
 ```
 
@@ -166,7 +169,7 @@ pip install numpy
 ## Running the Program
 Run the python program with:
 ```bash
-python function.py
+python main.py
 ```
 
 The system will display a main menu allowing users to select functions such as:
